@@ -12,7 +12,7 @@ CREATE TABLE artist(
 CREATE TABLE subscription(
 	id_subscription INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL,
-  amount INT NOT NULL
+  amount DECIMAL(4, 2) NOT NULL
 );
 
 CREATE TABLE album(
